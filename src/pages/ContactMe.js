@@ -3,6 +3,7 @@ import Hero from "../components/Hero";
 import Container from "../components/Container";
 import Row from "../components/Row";
 import Col from "../components/Col";
+import Footer from "../components/Footer";
 
 function AboutMe() {
   return (
@@ -32,6 +33,7 @@ function AboutMe() {
             
           </Col>
         </Row>
+        <Footer></Footer>
       </Container>
     </div>
   );

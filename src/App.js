@@ -19,7 +19,7 @@ function App() {
           <Route exact path="/Projects" component={Projects} />
           <Route exact path="/ContactMe" component={ContactMe} />
         </Wrapper>
-        <Footer />
+        {/* <Footer /> */}
       </div>
     </Router>
   );
