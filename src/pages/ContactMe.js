@@ -33,7 +33,7 @@ function AboutMe() {
             
           </Col>
         </Row>
-        <Footer></Footer>
+        
       </Container>
     </div>
   );

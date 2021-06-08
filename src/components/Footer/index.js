@@ -12,15 +12,16 @@ function Footer() {
   return (
     <div class="social-container">
       <h3>Social Follow</h3>
+      <p> Thank you for visiting my page </p>
       <a
-        href="https://www.youtube.com/c/jamesqquick"
-        className="youtube social"
+        href="https://github.com/joshwalters34"
+        // className="youtube social"
       >
         <FontAwesomeIcon icon={faGithub} size="2x" />
       </a>
       <a
-        href="https://www.facebook.com/learnbuildteach/"
-        className="facebook social"
+        href="https://www.linkedin.com/in/josh-walters-78a050150/"
+        // className="facebook social"
       >
         <FontAwesomeIcon icon={faLinkedin} size="2x" />
       </a>
@@ -29,7 +30,7 @@ function Footer() {
       </a>
       <a
         href="https://www.instagram.com/learnbuildteach"
-        className="instagram social"
+        // className="instagram social"
       >
         <FontAwesomeIcon icon={faInstagram} size="2x" />
       </a>
