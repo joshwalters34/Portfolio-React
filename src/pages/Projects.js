@@ -32,17 +32,20 @@ class Projects extends Component {
               </div>
               <div className="col-md-8">
                 <div className="card-body">
-                  <h5 className="card-title">title {project.title}</h5>
-                  <p className="card-text">{project.description} description</p>
-                  <p className="card-text">Visit my {project.website}</p>
-                  <p className="card-text">View my {project.repository}</p>
+                  <h5 className="card-title">{project.title}</h5>
+                  <p className="card-text">{project.description} </p>
+                  <p className="card-text">Visit my 
+                    <a class="a-modal" href={project.website} target="_blank" 
+                    rel="noreferrer">website</a></p>
+                  <p className="card-text">View my 
+                    <a className="a-modal" href={project.repository} target="_blank" 
+                    rel="noreferrer">repository</a></p>
                 </div>
               </div>
             </div>
           
       </div>
       ))}
-      ;
       </div>
     );
   }

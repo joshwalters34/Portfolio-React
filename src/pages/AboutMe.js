@@ -6,8 +6,8 @@ import Col from "../components/Col";
 
 function AboutMe() {
   return (
-    <div className="card mb-3" style={{width: '90%'}}>
-    <div className="row no-gutters">
+    <div className="container py-3">
+    <div className="row">
        <div className="col-md-8">
         <div className="card-body">
           <h5 className="card-title">About Me</h5>
@@ -21,15 +21,30 @@ function AboutMe() {
                 needs to think past the block of code they're fixing.  While the primary goal is to fix the code with the bug, you also have to think about
                 any other areas of the application that could be impacted.  This is where I'll excel. 
           </p>
+          <p>Here are some of the technologies I use</p>
+          <ul>
+            <li>Javascript</li>
+            <li>jQuery</li>
+            <li>Bootstrap</li>
+            <li>API calls</li>
+            <li>Handlebars</li>
+            <li>SQL</li>
+            <li>MongoDB</li>
+            <li>React</li>
+            <li>Sequelize</li>
+            <li>Node.js</li>
+            <li>Express</li>
+            <li>AJAX</li>
+          </ul>
         </div>
       </div>
-      <div className="col-md-4">
+      <div className="col-md-4 d-flex justify-content-end">
         <img
           className="bd-placeholder-img"
-          width="100%"
-          height="500"
-          src="https://i.imgur.com/u0mzDAH.jpg"
-          alt="Computers"
+          width="90%"
+          height="300"
+          src="https://media-exp3.licdn.com/dms/image/C4E03AQGPlfJBbfr2fw/profile-displayphoto-shrink_200_200/0/1616115415217?e=1628726400&v=beta&t=42NJOvUCaJ1GC5e7mu-s4GV94IsAA6VQXeYoMrOQEJc"
+          alt="Josh Walters"
          >
         </img>
       </div>

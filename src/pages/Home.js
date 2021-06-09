@@ -7,9 +7,9 @@ import React from "react";
 
 function Home() {
   return (
-    <div class="container py-3">
-      <div class="row">
-        <div class="col">
+    <div className="container py-3">
+      <div className="row">
+        <div className="col">
           <p className="card-text">
             I am currently an experienced Software Quality Assurance Analyst who
             turned their thirst for knowledge into a career as a Software
@@ -21,7 +21,7 @@ function Home() {
             please see my contact info at the bottom of the page!
           </p>
         </div>
-        <div class="col">
+        <div className="col">
           <img
             className="bd-placeholder-img"
             width="100%"

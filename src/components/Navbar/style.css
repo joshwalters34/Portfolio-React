@@ -1,9 +1,14 @@
-nav.navbar.navbar-default {
-  width: 100%;
+/* nav.navbar.navbar-default {
+  width: auto;
   margin-bottom: 0;
   margin-left: 0px;
   background-color: blue;
-}
+  color: white;
+} */
 /* .container {
   background-color: blue;
 } */
+
+.nav-item {
+  color: white;
+}

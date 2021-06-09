@@ -1,4 +1,5 @@
-import React from "react";
+import React, { Component } from "react";
+// import Resume from "../../Assets/Images/Josh-Walters-resume.pdf"
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { fas } from "@fortawesome/free-solid-svg-icons";
@@ -10,16 +11,23 @@ import {
 
 
 
-function Footer() {
+// function Footer() {
+  class Footer extends Component {
+  // onResumeClick() {
+  //   window.open(Resume);
+  // }
+  render(){
   return (
-<div className="container">
-  <div className="row">
-    <div className="col justify-content-center">
-      <p>This site was created by Josh Walters</p>
+<div className="container bg-light text-dark">
+  <div className="row d-flex justify-content-between">
+    <div className="col ">
+      <p>View my  Resume
+      {/* <a onClick={this.onResumeClick}> Resume </a> */}
+      </p>
       
     </div>
-    <div className="col">
-    <h3>Contact Me</h3>
+    <div className="col ">
+    
 
 
 <a
@@ -28,12 +36,7 @@ function Footer() {
 >
   <FontAwesomeIcon icon={faGithub} size="2x" />
 </a>
-{/* <a
-  href="https://www.linkedin.com/in/josh-walters-78a050150/"
-  // className="facebook social"
->
-  <FontAwesomeIcon icon={faEnvelope} size="2x" />
-</a> */}
+
 <a
   href="https://www.linkedin.com/in/josh-walters-78a050150/"
   // className="facebook social"
@@ -52,5 +55,6 @@ function Footer() {
    
   );
 }
+  }
 
 export default Footer;
