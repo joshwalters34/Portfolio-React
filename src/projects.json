@@ -2,7 +2,7 @@
   {
     "title": "The Dad DOJO",
     "description": "Working with a group on this project, I used fetch to make multiple API calls, Bulma layout and modals, and jquery.",
-    "image": "",
+    "image": "./Assets/Images/the-dad-dojo-screenshot.png",
     "website": "https://joshwalters34.github.io/The-Dad-DOJO2/",
     "repository": "https://github.com/joshwalters34/The-Dad-DOJO2"
   },

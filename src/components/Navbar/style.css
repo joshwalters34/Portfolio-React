@@ -1,4 +1,9 @@
 nav.navbar.navbar-default {
+  width: 100%;
   margin-bottom: 0;
-  margin-left: 20px;
+  margin-left: 0px;
+  background-color: blue;
 }
+/* .container {
+  background-color: blue;
+} */
