@@ -1,13 +1,5 @@
 import React, { Component } from "react";
-import projects from "../projects.json";
-
-// {projects.map(project => (
-//   key={project.title}
-//   title={project.title}
-//   description={project.description}
-//   website={project.website}
-//   repository={project.repository}
-//   )};
+import projects from "../utils/projects";
 
 class Projects extends Component {
   state = {
@@ -49,26 +41,7 @@ class Projects extends Component {
       </div>
     );
   }
-  //   <div className="card">
-
-  //   <div className="content">
-
-  //       <h1>
-  //         <strong>{title}</strong>
-  //       </h1>
-  //       <p>
-  //         <strong>{description}</strong>
-  //       </p>
-  //       <p>
-  //         <strong>Location:View my {website}
-  //       <p>
-  //         <strong>Location:</strong> Visit my {repository}
-  //       </p>
-  //       <div className="img-container">
-  //     <img alt={title} src={image} />
-  //   </div>
-  //   </div>
-  // </div>
+  
 }
 
 export default Projects;

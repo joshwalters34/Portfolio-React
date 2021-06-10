@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-// import Resume from "../../Assets/Images/Josh-Walters-resume.pdf"
+import resume from "../../Assets/Images/Josh Walters resume.pdf"
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { fas } from "@fortawesome/free-solid-svg-icons";
@@ -21,7 +21,7 @@ import {
 <div className="container bg-light text-dark">
   <div className="row d-flex justify-content-between">
     <div className="col ">
-      <p>View my  Resume
+      <p href={resume}>View my  Resume 
       {/* <a onClick={this.onResumeClick}> Resume </a> */}
       </p>
       
